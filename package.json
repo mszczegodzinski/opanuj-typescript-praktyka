@@ -15,6 +15,7 @@
     "raport:html:serve": "vite preview --outDir html --port 3100",
     "summary": "npm run raport:json && npm run raport:json:serve",
     "summary:vitest": "npm run raport:html && npm run raport:html:serve",
+    "tsc": "tsc",
     "_internal:test": "npm run verify 000-intro && npm run verify 000-intro-react"
   },
   "author": "Przeprogramowani",
@@ -42,7 +43,7 @@
     "prompts": "2.4.2",
     "tailwindcss": "3.4.16",
     "tsx": "4.19.2",
-    "typescript": "5.7.2",
+    "typescript": "5.6.3",
     "vite": "6.0.1",
     "vitest": "2.1.6"
   },
