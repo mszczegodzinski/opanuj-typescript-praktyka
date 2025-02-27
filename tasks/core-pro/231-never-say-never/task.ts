@@ -20,6 +20,9 @@ export function handleEvent(event: Event) {
     case 'keydown':
       console.log(`Naciśnięto klawisz ${event.key}`);
       break;
+    case 'resize':
+      console.log(`Zmieniono rozmiar na ${event.width}x${event.height}`);
+      break;
     default:
       const _exhaustiveCheck: never = event;
       throw new Error(`Nieobsługiwane zdarzenie: ${JSON.stringify(_exhaustiveCheck)}`);
